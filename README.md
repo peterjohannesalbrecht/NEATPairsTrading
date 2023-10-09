@@ -1,5 +1,9 @@
 # README - REPLICATING RESULTS
 
+-- IMPORTANT: Note, that for the repository on github, the docker images are not included in the repository. -- <br> 
+-- They must be created by runnning the dockerfile from the main directory and the /dockerization -folder --
+
+
 ## 1. Software Architecture
 - All core modules written and used for this thesis are in the `src` folder.
 - All scripts that produce (intermediary) results are in the top-level directory.
