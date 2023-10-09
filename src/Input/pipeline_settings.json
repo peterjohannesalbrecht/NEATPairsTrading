@@ -1,0 +1,38 @@
+{
+  "input_dir": "src/Input/",
+  "output_dir": "src/Output/",
+  "features_to_use": [
+    "price_asset_1",
+    "price_asset_2",
+    "z_score",
+    "z_score_MA_50",
+    "z_score_MA_25",
+    "z_score_MA_10",
+    "z_score_MA_5",
+    "z_score_MA_50_current",
+    "z_score_MA_25_current",
+    "z_score_MA_10_current",
+    "z_score_MA_5_current", 
+    "z_score_lagged",
+    "z_score_differenced",
+    "z_score_MSTD_10",
+    "weight_1",
+    "weight_2",
+    "bb_upper",
+    "bb_lower",
+    "bb_signal",
+    "rsi",
+    "macd",
+    "macd_signal",
+    "macd_signal_difference",
+    "pair",
+    "spread"
+  ],
+  "pair": 1,
+  "num_generations": 60,
+  "pop_size": 200,
+  "net": "recurrent",
+  "fitness_function": null,
+  "feed_forward": false
+
+}
