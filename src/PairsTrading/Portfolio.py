@@ -1,6 +1,6 @@
-"""This module holds the PairsTradingPortfolioClass.
+"""This module holds the PortfolioClass.
 
-This modules is for the PairsTradingPortfolio-class.
+This modules is for the Portfolio-class.
 This class is used in the neat-algorithm to buy/sell
 assets and to get information on the current portfolio
 """
@@ -9,7 +9,7 @@ import math
 import pandas as pd
 
 
-class PairsTradingPortfolio:
+class Portfolio:
     """Class for a Pairs-Trading portfolio.
 
     This class holds information about the current portfolio status.

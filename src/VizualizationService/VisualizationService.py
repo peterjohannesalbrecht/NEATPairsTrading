@@ -388,7 +388,7 @@ class VisualizationService:
         ) -> None:
         """Plot wealth for different provided portfolios.
 
-        Method plots wealth for different PairsTradingPortfolios.
+        Method plots wealth for different Portfolios.
         Can be used for benchmarking purposes.
         """
         wealth = neat.merge(linear, left_index=True, right_index=True)[

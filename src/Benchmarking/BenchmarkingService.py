@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 from src.Benchmarking.BacktestingEnvironment import BacktestingEnvironment
-from src.ResultService.VisualizationService import VisualizationService
+from src.VizualizationService.VisualizationService import VisualizationService
 
 
 class BenchmarkingService:

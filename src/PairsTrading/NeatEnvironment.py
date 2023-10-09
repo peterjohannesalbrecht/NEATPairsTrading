@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 from gymnasium import spaces
 
-from src.PairsTrading.PairsTradingPortfolio import PairsTradingPortfolio
+from src.PairsTrading.Portfolio import Portfolio
 
 
 class NeatEnvironment(gym.Env):
@@ -28,7 +28,7 @@ class NeatEnvironment(gym.Env):
         self.data = data
         self.starting_step = 1
         self.current_step = self.starting_step
-        self.portfolio = PairsTradingPortfolio(initial_cash)
+        self.portfolio = Portfolio(initial_cash)
 
         # Action space with actions: {-1, 0, 1}
         self.action_space = spaces.Discrete(3, start=-1)
@@ -105,7 +105,7 @@ class NeatEnvironment(gym.Env):
     def _take_action(self, action: int) -> None:
         """Take a provided action.
 
-        Interacts with the PairsTradingPortfolio to perform the provided
+        Interacts with the Portfolio to perform the provided
         trading action.
         """
         # Get current prices
