@@ -27,7 +27,6 @@ if __name__ == '__main__':
     logger.info('Consider training only one pair for testing purposes...')
     logger.info('To do so, redefine the job variable to be a list of one element...')
     job = list(range(0, len(selected_pairs)))
-    job = [0]
     for pair in tqdm(job):
         pair_id = selected_pairs.pair[pair]
         query = f'SELECT * FROM training_pairs WHERE pair = "{pair_id}" ORDER BY Date'
