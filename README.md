@@ -1,7 +1,9 @@
-# README - REPLICATING RESULTS
+# NeuroEvolution of Augmenting Topologies for Pairs Trading
+This repository consists of the Software of the master's thesis titled: 'Reinforcement Learning for Pairs Trading - An approach
+using the NEAT algorithm. The steps below are a guide on how to replicate the thesis' results. 
 
--- IMPORTANT: Note, that for the repository on github, the docker images are not included in the repository. -- <br> 
--- They must be created by runnning the dockerfile from the main directory and the /dockerization -folder --
+Note, that for the repository on github, the docker images are not included in the repository. -- <br> 
+They must be created by running the dockerfile from the main directory and the /dockerization -folder --
 
 
 ## 1. Software Architecture
